@@ -1,0 +1,205 @@
+/*
+font-family: 'Monda', sans-serif;
+*/
+
+/* ESTRUCTURA GLOBAL */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Monda', sans-serif;
+    font-size: 2vw;
+    text-align: center;
+    overflow-x: hidden;
+    background-color: #C6D169;
+}
+
+#wrapper {
+    position: relative;
+}
+
+.escena {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    border-top: 1px solid red;
+}
+
+#escena_0 {
+    top: 0;
+    width:100
+}
+
+#escena_1 {
+    top: 100vh;
+    z-index: 10;
+}
+
+#escena_2 {
+    top: 200vh;
+    z-index: 5;
+}
+
+#escena_3 {
+    top: 300vh;
+    z-index: 5;
+}
+
+#escena_4 {
+    top: 400vh;
+    z-index: 5;
+}
+
+#escena_0 h1 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 300px;
+    font-size: 10vh;
+    z-index: 12;
+}
+
+#escena_1 p {
+    float: left;
+    width: 100%;
+    vertical-align: top;
+    margin-right: 10%;
+    margin-top: 10vh;
+    font-size: 4vh;
+    padding-left: 100px;
+}
+
+#escena_2 p {
+    width: 50%;
+    float: left;
+    vertical-align: top;
+    margin-right: 10%;
+    margin-top: 10vh;
+    font-size: 4vh;
+    padding-left: 100px;
+}
+
+#escena_3 p {
+    width: 50%;
+    float: left;
+    vertical-align: top;
+    margin-right: 10%;
+    margin-top: 10vh;
+    font-size: 4vh;
+    padding-left: 100px;
+}
+
+#robot {
+    display: inline-block;
+    width:800px;
+    height: auto;
+    margin-top: 10vh;
+}
+
+#layout {
+    width: 10%;
+    opacity: 0;
+    height: auto;
+    position: absolute;
+    top: 30vh;
+    left: 0;
+}
+
+#layoutE0 {
+    width: auto;
+    opacity: 1;
+    height: 15vh;
+    margin-top: 5vh;
+    left: 0;
+}
+
+#layoutE01 {
+    width: auto;
+    opacity: 1;
+    height: 15vh;
+    margin-top: 5vh;
+    left: 0;
+}
+
+#layoutE02,
+#layoutE03,
+#layoutE04,
+#layoutE05,
+#layoutE06,
+#layoutE07,
+#layoutE08,
+#layoutE000,
+#layoutE00 {
+    width: auto;
+    opacity: 1;
+    height: 15vh;
+    margin-top: 5vh;
+    left: 0;
+}
+
+#BD {
+    width: 10%;
+    opacity: 1;
+    height: auto;
+    position: absolute;
+    top: 30vh;
+    left: 0;
+}
+
+#datos {
+    width: 10%;
+    opacity: 0;
+    height: auto;
+    position: absolute;
+    top: 30vh;
+    left: 0;
+}
+
+@media only screen and (max-width: 1024px) {
+    #robot {
+        display: inline-block;
+        width: auto;
+        height: 50vh;
+        margin-top: 10vh;
+    }
+    #layout {
+        position: absolute;
+        width: 20%;
+        height: auto;
+        top: 30vh;
+        left: 0;
+    }
+    #BD {
+        width: 20%;
+        opacity: 0;
+        height: auto;
+        position: absolute;
+        top: 30vh;
+        left: 0;
+    }
+    #datos {
+        width: 20%;
+        opacity: 0;
+        height: auto;
+        position: absolute;
+        top: 30vh;
+        left: 0;
+    }
+}
+
+#debug {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    width: 200px;
+}
