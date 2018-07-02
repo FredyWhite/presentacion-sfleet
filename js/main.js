@@ -55,7 +55,7 @@ $(document).ready(function () {
         .add([
             TweenMax.fromTo("#robot", 1, { x: ancho / 4 }, { x: ancho / 15 }),
             TweenMax.fromTo("#robot", 0.3, { opacity: 0 }, { opacity: 1 }),
-            TweenMax.fromTo("#herramienta", 1, { x: -ancho / 4 }, { x: ancho / 15 }),
+            TweenMax.fromTo("#herramienta", 1, { x: -ancho / 4 }, { x: ancho / 20 }),
             TweenMax.fromTo("#herramienta", 0.3, { opacity: 0 }, { opacity: 1 }),
         ]);
     var sceneTweenRobot = new ScrollMagic.Scene({ triggerElement: "#escena_1", offset: alto / 4, duration: alto / 4 })
